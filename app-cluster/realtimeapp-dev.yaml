@@ -7,10 +7,10 @@ metadata:
 spec:
   healthChecks:
   - kind: Deployment
-    name: realtime
+    name: realtime-dev
     namespace: realtime-dev
   - kind: Deployment
-    name: redis
+    name: redis-dev
     namespace: realtime-dev
   interval: 1m0s
   path: ./deploy/overlays/dev
