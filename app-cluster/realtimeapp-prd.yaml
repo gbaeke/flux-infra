@@ -7,10 +7,10 @@ metadata:
 spec:
   healthChecks:
   - kind: Deployment
-    name: realtime
+    name: realtime-prd
     namespace: realtime-prd
   - kind: Deployment
-    name: redis
+    name: redis-prd
     namespace: realtime-prd
   interval: 1m0s
   path: ./deploy/overlays/prd
