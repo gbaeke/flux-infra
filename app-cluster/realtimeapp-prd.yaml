@@ -17,7 +17,7 @@ spec:
   prune: true
   sourceRef:
     kind: GitRepository
-    name: realtimeapp-tag
+    name: realtimeapp-infra
   timeout: 2m0s
   validation: client
 
